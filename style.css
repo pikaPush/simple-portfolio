@@ -105,5 +105,12 @@ header .content {
 header .content .text-content .text {
   font-size: 27px;
   color: #2c3e50;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+header .content .text-content .name {
+  font-size: 75px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: -20px 0 0 -3px;
 }
