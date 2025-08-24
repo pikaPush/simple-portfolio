@@ -95,3 +95,9 @@ header nav .navbar .search-box a {
   padding-right: 2px;
   color: #2c3e50;
 }
+
+header .content {
+  position: absolute;
+  top: 33%;
+  left: 7%;
+}
