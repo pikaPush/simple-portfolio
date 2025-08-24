@@ -62,3 +62,9 @@ header nav .navbar .menu li a {
 header nav .navbar .menu li a:hover {
   color: #000;
 }
+
+header nav .navbar .search-box {
+  position: relative;
+  height: 50px;
+  width: 150px;
+}
