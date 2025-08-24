@@ -21,12 +21,10 @@ header nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: red;
 }
 
 header nav .navbar {
   width: 90%;
-  background-color: pink;
   margin: 20px auto 20px;
   display: flex;
   justify-content: space-between;
@@ -48,7 +46,10 @@ header nav .navbar .menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 20px;
+}
+
+header nav .navbar .menu li {
+  margin: 0 20px;
 }
 
 header nav .navbar .menu li a {
