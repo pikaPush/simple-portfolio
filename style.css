@@ -13,5 +13,5 @@ header {
   background: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
