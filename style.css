@@ -68,3 +68,18 @@ header nav .navbar .search-box {
   height: 50px;
   width: 150px;
 }
+
+header nav .navbar .search-box input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 2px solid #2c3e50;
+  border-radius: 5px;
+  padding: 0 10px 0 40px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #2c3e50;
+}
