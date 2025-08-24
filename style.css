@@ -32,3 +32,10 @@ header nav .navbar {
   justify-content: space-between;
   align-items: center;
 }
+
+header nav .navbar .menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
