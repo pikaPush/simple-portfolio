@@ -65,8 +65,8 @@ header nav .navbar .menu li a:hover {
 
 header nav .navbar .search-box {
   position: relative;
-  height: 50px;
-  width: 150px;
+  height: 40px;
+  width: 200px;
 }
 
 header nav .navbar .search-box input {
@@ -81,5 +81,17 @@ header nav .navbar .search-box input {
   padding: 0 10px 0 40px;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  color: #2c3e50;
+  margin-left: 3px;
+}
+
+header nav .navbar .search-box a {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  border-right: 3px solid #2c3e50;
+  padding-right: 2px;
   color: #2c3e50;
 }
