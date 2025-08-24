@@ -39,3 +39,7 @@ header nav .navbar .menu {
   list-style: none;
   gap: 20px;
 }
+
+header nav .navbar .menu li a {
+  text-decoration: none;
+}
