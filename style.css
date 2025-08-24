@@ -15,3 +15,11 @@ header {
   background-size: cover;
   background-position: center;
 }
+
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: red;
+}
