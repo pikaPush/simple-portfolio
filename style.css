@@ -23,3 +23,12 @@ header nav {
   width: 100%;
   background-color: red;
 }
+
+header nav .navbar {
+  width: 90%;
+  background-color: pink;
+  margin: 20px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
