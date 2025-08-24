@@ -33,6 +33,11 @@ header nav .navbar {
   align-items: center;
 }
 
+header nav .navbar .logo {
+  height: 80px;
+  width: 150px;
+}
+
 header nav .navbar .menu {
   display: flex;
   align-items: center;
