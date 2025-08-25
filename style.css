@@ -21,6 +21,7 @@ header nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 header nav .navbar {
@@ -100,6 +101,7 @@ header .content {
   position: absolute;
   top: 33%;
   left: 7%;
+  z-index: 100;
 }
 
 header .content .text-content .text {
@@ -116,7 +118,7 @@ header .content .text-content .name {
 }
 
 header .content .text-content .job {
-  font-size: 40px;
+  font-size: 30px;
   color: #2c3e50;
   display: flex;
 }
@@ -164,4 +166,13 @@ header .content .text-content .buttons button {
 
 header .content .text-content .buttons button:hover {
   transform: scale(0.95);
+}
+
+header .image img {
+  width: 500px;
+  position: absolute;
+  right: 80px;
+  top: 55%;
+  transform: translateY(-50%);
+  border-radius: 50%;
 }
