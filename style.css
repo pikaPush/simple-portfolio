@@ -143,3 +143,7 @@ header .content .text-content .job .typing-text {
     width: 0ch;
   }
 }
+
+header .content .text-content .buttons {
+  margin: 20px 0 0 50px;
+}
