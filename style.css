@@ -124,4 +124,5 @@ header .content .text-content .job {
 header .content .text-content .job .typing-text {
   color: #0b38ff;
   margin-left: 10px;
+  animation: typing-text;
 }
