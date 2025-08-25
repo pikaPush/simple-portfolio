@@ -120,3 +120,8 @@ header .content .text-content .job {
   color: #2c3e50;
   display: flex;
 }
+
+header .content .text-content .job .typing-text {
+  color: #0b38ff;
+  margin-left: 10px;
+}
