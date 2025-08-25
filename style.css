@@ -159,4 +159,9 @@ header .content .text-content .buttons button {
   background: linear-gradient(125deg, #0b38ff 10%, #c346c2 100%);
   font-weight: 500;
   outline: none;
+  transition: all 0.3s ease;
+}
+
+header .content .text-content .buttons button:hover {
+  transform: scale(0.95);
 }
