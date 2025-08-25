@@ -114,3 +114,9 @@ header .content .text-content .name {
   color: #2c3e50;
   margin: -20px 0 0 -3px;
 }
+
+header .content .text-content .job {
+  font-size: 40px;
+  color: #2c3e50;
+  display: flex;
+}
