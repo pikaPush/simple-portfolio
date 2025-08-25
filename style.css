@@ -124,5 +124,22 @@ header .content .text-content .job {
 header .content .text-content .job .typing-text {
   color: #0b38ff;
   margin-left: 10px;
-  animation: typing 5s steps(31) infinite;
+  border-right: 4px solid #0b38ff;
+  animation: typing 10s steps(31) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+
+  50% {
+    width: 30ch;
+  }
+
+  100% {
+    width: 0ch;
+  }
 }
