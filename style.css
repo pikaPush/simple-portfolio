@@ -184,3 +184,9 @@ header .social-media-icons {
   display: flex;
   flex-direction: column;
 }
+
+header .social-media-icons a {
+  margin: 8px 0;
+  font-size: 20px;
+  color: #2c3e50;
+}
